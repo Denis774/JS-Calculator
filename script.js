@@ -6,7 +6,7 @@ var operations;
 function num1(){  
  if (document.screenform.screens.value == "0" || document.screenform.screens.value == result){  
     
-  document.screenform.screens.value += "1";  
+  document.screenform.screens.value = "1";  
       
  }  
  else //if(document.screenform.screens.value != "0")  
@@ -37,7 +37,7 @@ function num3(){
  }  
  else //if(document.screenform.screens.value != "0")  
  {  
-  documentdocument.screenform.screens.value = document.screenform.screens.value + "3";  
+  document.screenform.screens.value = document.screenform.screens.value + "3";  
  }  
     
 }  
@@ -139,7 +139,7 @@ function num0(){
  }  
    
 }  
-function numdobuzero(){  
+function numdoublezero(){  
    
  if (document.screenform.screens.value == "0" || document.screenform.screens.value == result){  
     
@@ -239,25 +239,20 @@ function equalsto(){
   for (var i = 0; i < secondnumber; i++){  
      
    result = firstnumber * i;  
-  }  
-    
+  }   
     
  }  
  document.screenform.screens.value ="";  
  document.screenform.screens.value = result.toString();  
  document.screenform.screensu.value = firstnumber + operation + secondnumber + " = " + result.toString();  
- return;  
-   
+ return;   
 }  
-  
 function sqrt(){  
  firstnumber = document.screenform.screens.value;  
  result = Math.sqrt(parseInt(document.screenform.screens.value));  
  document.screenform.screens.value = result;  
  document.screenform.screensu.value = "sqrt(" + firstnumber + ") = " + result;  
-   
 }  
-  
 function operationraistop(){  
    
  operation = "^";  
