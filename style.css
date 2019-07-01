@@ -1,0 +1,52 @@
+body {  
+background-color:#fff;  
+margin: 0px auto;  
+  
+}  
+.calbody{  
+ background: #097C9B;  
+ border: 1px solid #ff0;  
+ padding: 10px;  
+ margin-left: 450px;  
+ min-width: 27.4em;  
+ max-width: 27.4em;  
+   
+}  
+h2{  
+ text-align: center;  
+ font-size: 40px;  
+ color: #003652;  
+   
+}  
+  
+#screen{  
+ text-align: right;  
+ width: 23em;  
+ height: 75px;  
+ font-size: 18px;  
+   
+}  
+  
+#screenu{  
+ color: grey;  
+ text-align: right;  
+ width: 27.6em;  
+ height: 75px;  
+ font-size: 15px;  
+   
+}  
+  
+button{  
+ background-color: #fff;  
+ width: 80px;  
+ height: 95px;  
+ font-size: 30px;  
+ border: 1px solid #097C9B;  
+   
+  
+}  
+  
+button:hover{  
+  background-color: #509CA9;   
+    
+ }  
